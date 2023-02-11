@@ -11,7 +11,7 @@ def read_version(file_name):
 
 setuptools.setup(
     name="example-package",
-    version=read_version("example-package/version.txt"),
+    version=read_version("example_package/version.txt"),
     author="Tom Stanley",
     author_email="tom@ilingu.com",
     description="package description",
